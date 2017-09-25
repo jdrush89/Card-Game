@@ -1,0 +1,96 @@
+body {
+    background-image: url("../assets/cardMat.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-size: cover;
+}
+
+.deck {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 100%;
+  width: 12%;
+  text-align: center;
+  position: relative;
+}
+
+.play-button {
+  margin-left: 10%;
+  margin-right: 8px;
+}
+
+.button-row {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.board {
+  width: 95%;
+  margin: 40px;
+}
+
+.row {
+  height: 200px;
+}
+
+.row-small {
+  height: 120px;
+}
+
+.second-row {
+  margin-bottom: 20px;
+}
+
+.row-large {
+  height: 320px;
+}
+
+.player-row {
+  position: absolute;
+  bottom: 0;
+}
+
+.hand {
+  width: 75%;
+  height: 200px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.dice {
+  width: 25%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cell
+{
+  float: left;
+}
+
+.card {
+  background: white;
+  width: 180px;
+  height: 100%;
+  border-style: solid;
+  margin-right: 2px;
+  position: relative;
+}
+
+.card-line {
+  margin-bottom: 2px;
+}
+
+.health-bar {
+  width: 50%;
+}
+
+.health-text {
+  color: green;
+}
